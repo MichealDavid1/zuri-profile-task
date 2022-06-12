@@ -1,0 +1,220 @@
+html, body {
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: auto;
+  background-color:	#F5F5F5;
+}
+
+header {
+  display: flex;
+  overflow: hidden;
+}
+
+nav {
+  position: absolute;
+  background-color: #040000;
+  height: 40px;
+  width: 100%;
+  align-items: right;
+  padding-top: 1%;
+  margin-top: -5px;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  margin: 0 0 0 -18px;
+  width: 50%;
+}
+
+span {
+  color: red;
+}
+
+#logo {
+  position: absolute;
+  font-weight: bolder;
+  font-size: large;
+}
+
+#nav-el {
+  display: inline-flex;
+  list-style: none;
+  margin-top: 5px;
+  float: right;
+  margin-right: 7%;
+}
+
+li {
+  margin-left: 5%;
+}
+
+button {
+  height: 100%;
+  background-color: #E1D9D1;
+  font-size: smaller;
+  border: none;
+  border-radius: 4%;
+  margin-left: 1%;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: small;
+  margin-left: 3%;
+}
+
+.abt {
+  color: rgb(63, 1, 1);
+  font-weight: bold;
+}
+
+.nbt {
+  margin-right: 50px;
+}
+
+img {
+  border-radius: 50%;
+  height: 225px;
+  width: 225px;
+  float: right;
+  margin-right: 4%;
+  margin-top: 2%;
+}
+
+hr {
+  background-color: #FAF9F6;
+  height: 5.2%;
+}
+
+#profile {
+  background-color: #E1D9D1;
+  display: table-cell;
+  width: 4000px;
+  height: 280px;
+}
+
+#name {
+  margin-left: 52%;
+  font-size: 40px;
+  margin-top: -180px;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  width: 30%;
+}
+
+ table {
+   width: 45%;
+   margin: 1% 0 0 5%;
+ }
+
+#sub-info {
+  margin-left: 52%;
+  margin-top: -30px;
+  font-size: large;
+}
+
+
+ #about {
+   background-color: #FAF9F6;
+   margin-left: 0;
+   margin-top: -20px;
+   padding-bottom: 1%;
+ }
+
+ #about-t {
+   font-size: xx-large;
+   margin-bottom: 0;
+ }
+
+ #about-info {
+  margin-left: 2%;
+ }
+
+ #text {
+   text-justify: newspaper;
+   text-align: justify;
+   margin-right: 2%;
+   initial-value: 2%;
+   line-height: 25px;
+ }
+
+
+#contact-me, #submit {
+   border-radius: 4px;
+   background-color: #04AA6D;
+   color: white;
+   font-size: x-large;
+   margin-top: 1%;
+   cursor: pointer;
+   padding: 12px 20px;
+ }
+
+ #contact-me {
+  width: 20%;
+  height: 50px;
+ }
+
+ #contact-me:hover, #submit:hover {
+  background-color: #45a049;
+}
+
+
+form {
+  margin-top: 5%;
+}
+
+
+input[type=text], textarea, #password, #email, #phone {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 0 20% 0 20%;
+}
+
+#select {
+  margin: 6px 0 20px 0;
+}
+
+select {
+  margin-left: 2%;
+}
+
+#cont {
+  margin: 10% 35% 0 35%;
+}
+
+#cont-r {
+  margin: 0 35% 0 35%;
+}
+
+#bt {
+  margin-top: 5%;
+}
